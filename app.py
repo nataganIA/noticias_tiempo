@@ -88,4 +88,4 @@ def generar_noticia_con_comparativas(fecha_objetivo, df, ciudad="Madrid"):
             comparativa = "más alta" if diff > 0 else "más baja"
             comparativas.append(f"Esta media fue {comparativa} que la media histórica ({resumen['tavg_hist']:.1f}°C)")
 
-    if pd.notna(resumen['prcp_to_]()
+   if pd.notna(resumen['prcp_total_actual']):
